@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="main-content">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form action="" id="survey-form">
+       
+        <div class="name">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="email">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+        </div>
+        
+        <div class="age">
+            <label for="number" id="number-label" class="form-control">Age(optional)</label>
+            <input type="number" name="age" id="number" min="10" max="99" placeholder="age">
+        </div>
+        
+        <div class="role">
+            <h3 class="titlee">Which option best describes your currnt role?</h3>
+            <select name="roles" id="dropdown">
+                <option value="Select an option">Select current role</option>
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time Learner">Full Time Learner</option>
+                <option value="Not To Say">Prefer Not To Say</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+    
+        
+        <div class="radio-btn">
+            <h3 class="titlee">Would you recommend freeCodeCamp to a friend?</h3>
+            <div class="definitely">
+                <div><input type="radio" name="favorite" value="definitely" id=""></div>
+                <label for="definitely" checked>Definitely</label>
+            
+            </div>
+            <div class="maybe">
+                <div><input type="radio" name="favorite" value="maybe" id=""></div>
+                <label for="maybe">Maybe</label>
+            </div>
+        </div>
+
+        <div class="check-btn"></div>
+        <h3 class="titlee">What would you like to see improved? (Check all that apply)</h3>
+        <div class="frontendC">
+           <div><input type="checkbox" name="frontend1" value="frontend" id="frontends"></div>
+            <label for="frontends">Front-end Projects</label>
+        </div>
+        <div class="backendC">
+    
+            <div><input type="checkbox" name="backend1" value="backend" id="backends"></div>
+            <label for="backends">Back-end Projects</label>
+        </div>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <button type="submit" value="submit" id="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>

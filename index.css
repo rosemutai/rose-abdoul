@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.titlee{
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.main-content{
+    width: 70%;
+    margin: 12px auto;
+}
+
+#title, #description{
+    text-align: center;
+    margin: 8px 0;
+}
+
+#survey-form{
+    width: 50%;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#survey-form input{
+    width: 94%;
+    margin: 6px auto;
+    padding: 4px;
+}
+
+.role select{
+    width: 94%;
+    padding: 4px;
+}
+
+.definitely, .maybe, .frontendC, .backendC{
+    display: flex;
+    
+    justify-content: flex-start;
+    margin-bottom: 8px;
+}
+
+button{
+    margin-top: 6px;
+    background-color: aqua;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 4px;
+}
